@@ -1,0 +1,60 @@
+@import "variables";
+@import "work";
+@import "skills";
+@import "interests";
+@import "responsive";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $body;
+  font-family: "Open Sans", sans-serif;
+  color: $text;
+}
+
+.icons {
+  font-size: 60px;
+}
+
+.title {
+  font-size: $small;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 4vw;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.vl {
+  border-left: 5px solid $text;
+  height: 105.5%;
+
+  left: 61vw;
+  top: 0;
+}
+
+hr {
+  border-top: 5px solid $text;
+  width: 70vw;
+  color: "$text";
+
+  opacity: 1;
+}
+
+.icons > i {
+  background-color: $body;
+  border-radius: 50%;
+  border: 3px solid $text;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,28 @@
+// Mobile Screen
+
+@media (max-width: 992px) {
+  .hide {
+    visibility: hidden;
+  }
+}
+
+.col-xs-1 {
+  text-align: center;
+}
+
+.hr:after {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  content: " ";
+  display: block;
+  margin-left: 10vw;
+  border-bottom: 5px solid $text;
+}
+
+.hr-int:after {
+  content: " ";
+  display: block;
+  margin-left: -20px;
+  width: 71vw;
+  border-bottom: 5px solid $text;
+}

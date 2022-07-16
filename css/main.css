@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
+.years {
+  line-height: 4;
+}
+
+.work-exp {
+  padding-top: 15px;
+}
+.work-exp p {
+  font-weight: bold;
+}
+.work-exp h6 {
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.circle {
+  letter-spacing: 2.5px;
+}
+
+.award-years {
+  line-height: 3;
+}
+
+.award-name {
+  padding-top: 16px;
+  font-size: 15px;
+}
+.award-name p {
+  font-weight: bold;
+  line-height: 0.8;
+}
+.award-name h6 {
+  line-height: 0.8;
+  padding-bottom: 12px;
+}
+
+.vl-skills {
+  margin-top: -10px;
+  border-left: 5px solid #2a2a63;
+  height: 108%;
+  left: 61vw;
+}
+
+@media (max-width: 992px) {
+  .hide {
+    visibility: hidden;
+  }
+}
+.col-xs-1 {
+  text-align: center;
+}
+
+.hr:after {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  content: " ";
+  display: block;
+  margin-left: 10vw;
+  border-bottom: 5px solid #2a2a63;
+}
+
+.hr-int:after {
+  content: " ";
+  display: block;
+  margin-left: -20px;
+  width: 71vw;
+  border-bottom: 5px solid #2a2a63;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffa1a9;
+  font-family: "Open Sans", sans-serif;
+  color: #2a2a63;
+}
+
+.icons {
+  font-size: 60px;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 4vw;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.vl {
+  border-left: 5px solid #2a2a63;
+  height: 105.5%;
+  left: 61vw;
+  top: 0;
+}
+
+hr {
+  border-top: 5px solid #2a2a63;
+  width: 70vw;
+  color: "$text";
+  opacity: 1;
+}
+
+.icons > i {
+  background-color: #ffa1a9;
+  border-radius: 50%;
+  border: 3px solid #2a2a63;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
